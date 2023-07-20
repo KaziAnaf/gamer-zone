@@ -255,18 +255,20 @@ img {
 }
 
 /* new games section */
-.introduction-our-new-games{
+.introduction-our-new-games {
     margin-bottom: 100px;
 }
 
-.games-content{
+.games-content {
     display: flex;
     justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 30px; ;
+    margin-bottom: 30px;
+    ;
 }
-.games-content-newone{
+
+.games-content-newone {
     display: flex;
     justify-content: space-around;
     margin-left: 150px;
@@ -280,12 +282,13 @@ button {
     border-radius: 50px;
     background: #FFF;
     border: none;
-    
+
 }
 
-.hover-btn:hover{
+.hover-btn:hover {
     border: 2px solid blue;
 }
+
 .games-content-newone,
 button {
     display: flex;
@@ -293,13 +296,16 @@ button {
     gap: 10px;
     border-radius: 50px;
     background: #FFF;
-    
+
 }
 
-.games-content,h3:hover{
+.games-content,
+h3:hover {
     color: #FF42A5;
 }
-.games-content-newone,h3:hover{
+
+.games-content-newone,
+h3:hover {
     color: #FF42A5;
 }
 
@@ -322,15 +328,76 @@ h3 {
     height: 40px;
     border-radius: 5px;
 }
-.games-content-newone img{
+
+.games-content-newone img {
     width: 40px;
     height: 40px;
     border-radius: 5px;
 }
 
 /* footer section css styles */
-.gamer-footer{
-    
+.gamer-footer {
+    height: 500px;
+    background: #0B0223;
+
+}
+
+.website-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.footer-menue {
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.website-footer img {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 27px;
+
+}
+
+.social-link {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 110px;
+}
+
+.site-policy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.site-policy h4 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.end-content {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
 }
 
 
