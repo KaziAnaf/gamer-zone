@@ -72,8 +72,8 @@ nav li a {
 }
 
 .special-menu {
-    width: 130px;
-    height: 23px;
+    width: 140px;
+    height: 28px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding-left: 7px;
@@ -264,8 +264,8 @@ img {
     justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 30px;
-    ;
+    margin-bottom: 30px; 
+    
 }
 
 .games-content-newone {
@@ -368,19 +368,16 @@ h3 {
 }
 
 .social-link {
-    margin-top: 40px;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-left: 110px;
+    margin: 40px 0px 0px 400px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .site-policy {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 30px 250px 0px 250px;
 }
 
 .site-policy h4 {
@@ -523,6 +520,57 @@ h3 {
         width: 30%;
         height: 20%;
 
+    }
+
+    .games-content
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
+    }
+    .games-content-newone{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+    } 
+
+    .gamer-footer {
+        height: 630px;
+    }
+
+    .footer-menue {
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       
+    }
+    .footer-menue, h4{
+        font-size: 15px;
+        padding: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .social-link{
+        display: flex;
+        margin: 50px 150px 0 50px;
+       
+        
+    }
+    .site-policy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px 5px 0px 0px;
+        
+    }
+    .end-content{
+        text-align: center;
     }
 
 
